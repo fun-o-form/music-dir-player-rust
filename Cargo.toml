@@ -1,0 +1,17 @@
+[package]
+name = "funoform_mp3_dir_player"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rodio = "0.20.1"
+
+# For controller
+rand = "0.8"
+crossbeam-channel = "0.5.14"
+
+# For the cli
+tui = "0.19"
+crossterm = "0.25"
